@@ -1,0 +1,60 @@
+.banner{
+    background-image: url('images/img.jpg');
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+height: 100%;
+height: 100vh;
+background-size: cover;
+}
+
+
+body{
+   
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+.text{
+    margin-top: -3.5%;
+    margin-right: 150px;
+    color: #F6F6C9;
+}
+a{
+    color: #EB6440;
+
+}
+a:hover{
+    color: #BDB76B;
+}
+.top{
+    color: #FFFFD0;
+    
+}
+.top:hover{
+    color: yellowgreen;
+}
+
+h3{
+    color:#F5D5AE ;
+}
+p{
+    color:#F3E0B5;
+    font-size: 1.7em;
+    margin-left: -1%;
+}
+h1{
+    color: #FBFACD;
+}
+.span_1{
+    color: black;
+}
+@media (min-width: 100px) and (max-width: 1200px) { 
+    .text{
+        display: none;
+    }
+    .banner{
+        height: auto;
+    }
+ }

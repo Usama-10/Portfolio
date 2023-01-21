@@ -1,0 +1,32 @@
+body{
+    background-image: url('../images/img.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    height: 100vh;
+    background-size: cover;
+    
+  
+}
+.top{
+    color: #FFFFD0;
+    
+}
+h1{
+    color: #BDB76B;
+}
+p{
+     color: gold;
+}
+.icon{
+    color: white;
+}
+.text{
+    font-size: larger;
+    color: #BDB76B;
+}
+.text_1{
+    font-size: larger;
+    color: gold;
+}
